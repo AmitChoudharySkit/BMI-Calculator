@@ -6,7 +6,7 @@ document.getElementById('bmiForm').addEventListener('submit', async function(eve
     const weight = document.getElementById('weight').value;
 
     // Replace this URL with your actual API Gateway endpoint
-    const apiUrl = 'https://your-api-id.execute-api.region.amazonaws.com/prod/bmi';
+    const apiUrl = 'https://vrxkk7frt1.execute-api.eu-north-1.amazonaws.com/dev/bmi';
 
     try {
         // Make a POST request to your API
